@@ -1,0 +1,9 @@
+<h2>Students</h2>
+<br />
+<ul>
+    <li>
+    <% Student.all.each do |student| %>
+    <%= student.first_name %>
+    <% end %>
+    </li>
+</ul>
