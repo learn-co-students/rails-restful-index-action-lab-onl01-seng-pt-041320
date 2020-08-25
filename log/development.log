@@ -158,3 +158,12 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 14ms (Views: 8.1ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2020-08-25 18:13:44 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /Users/ifeoluwaakinremi-wade/.rvm/gems/ruby-2.6.1/gems/railties-5.0.7.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/ifeoluwaakinremi-wade/.rvm/gems/ruby-2.6.1/gems/railties-5.0.7.2/lib/rails/templates/rails/welcome/index.html.erb (2.4ms)
+Completed 200 OK in 13ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
